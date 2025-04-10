@@ -1,0 +1,35 @@
+<VAST version="2.0">
+  <Ad id="static">
+    <InLine>
+      <AdSystem>Static VAST Template</AdSystem>
+      <AdTitle>Static VAST Tag</AdTitle>
+      <Impression>https://example.com/pixel.gif?asi=2323234242</Impression>
+      <Creatives>
+        <Creative>
+          <Linear skipoffset="00:00:10">
+            <Duration>00:00:08</Duration>
+            <TrackingEvents>
+              <Tracking event="start">https://example.com/pixel.gif</Tracking>
+              <Tracking event="firstQuartile">https://example.com/pixel.gif</Tracking>
+              <Tracking event="midpoint">https://example.com/pixel.gif</Tracking>
+              <Tracking event="thirdQuartile">https://example.com/pixel.gif</Tracking>
+              <Tracking event="complete">https://example.com/pixel.gif</Tracking>
+              <Tracking event="pause">https://example.com/pixel.gif</Tracking>
+              <Tracking event="mute">https://example.com/pixel.gif</Tracking>
+              <Tracking event="fullscreen">https://example.com/pixel.gif</Tracking>
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickThrough>https://t.co/33h7h7VmbA</ClickThrough>
+              <ClickTracking>https://cryptogemsx.com/vast.xml</ClickTracking>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile type="video/mp4" bitrate="300" width="480" height="270">
+                https://video.twimg.com/ext_tw_video/1827457862886424576/pu/vid/avc1/720x720/oA8xL09kYtp2470g.mp4?tag=12
+              </MediaFile>
+            </MediaFiles>
+           </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
